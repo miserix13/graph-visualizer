@@ -1,0 +1,6 @@
+C:\Users\jojow.WEBSTER\source\repos\graph-visualizer\obj\Debug\net10.0\graph-visualizer.csproj.AssemblyReference.cache
+C:\Users\jojow.WEBSTER\source\repos\graph-visualizer\obj\Debug\net10.0\graph-visualizer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jojow.WEBSTER\source\repos\graph-visualizer\obj\Debug\net10.0\graph-visualizer.AssemblyInfoInputs.cache
+C:\Users\jojow.WEBSTER\source\repos\graph-visualizer\obj\Debug\net10.0\graph-visualizer.AssemblyInfo.cs
+C:\Users\jojow.WEBSTER\source\repos\graph-visualizer\obj\Debug\net10.0\graph-visualizer.csproj.CoreCompileInputs.cache
+C:\Users\jojow.WEBSTER\source\repos\graph-visualizer\obj\Debug\net10.0\graph-visualizer.sourcelink.json

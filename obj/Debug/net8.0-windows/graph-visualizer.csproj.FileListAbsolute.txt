@@ -1,0 +1,15 @@
+C:\Users\jojow.WEBSTER\source\repos\graph-visualizer\obj\Debug\net8.0-windows\graph-visualizer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jojow.WEBSTER\source\repos\graph-visualizer\obj\Debug\net8.0-windows\graph-visualizer.AssemblyInfoInputs.cache
+C:\Users\jojow.WEBSTER\source\repos\graph-visualizer\obj\Debug\net8.0-windows\graph-visualizer.AssemblyInfo.cs
+C:\Users\jojow.WEBSTER\source\repos\graph-visualizer\obj\Debug\net8.0-windows\graph-visualizer.csproj.CoreCompileInputs.cache
+C:\Users\jojow.WEBSTER\source\repos\graph-visualizer\obj\Debug\net8.0-windows\graph-visualizer.sourcelink.json
+C:\Users\jojow.WEBSTER\source\repos\graph-visualizer\bin\Debug\net8.0-windows\graph-visualizer.exe
+C:\Users\jojow.WEBSTER\source\repos\graph-visualizer\bin\Debug\net8.0-windows\graph-visualizer.deps.json
+C:\Users\jojow.WEBSTER\source\repos\graph-visualizer\bin\Debug\net8.0-windows\graph-visualizer.runtimeconfig.json
+C:\Users\jojow.WEBSTER\source\repos\graph-visualizer\bin\Debug\net8.0-windows\graph-visualizer.dll
+C:\Users\jojow.WEBSTER\source\repos\graph-visualizer\bin\Debug\net8.0-windows\graph-visualizer.pdb
+C:\Users\jojow.WEBSTER\source\repos\graph-visualizer\obj\Debug\net8.0-windows\graph-visualizer.dll
+C:\Users\jojow.WEBSTER\source\repos\graph-visualizer\obj\Debug\net8.0-windows\refint\graph-visualizer.dll
+C:\Users\jojow.WEBSTER\source\repos\graph-visualizer\obj\Debug\net8.0-windows\graph-visualizer.pdb
+C:\Users\jojow.WEBSTER\source\repos\graph-visualizer\obj\Debug\net8.0-windows\graph-visualizer.genruntimeconfig.cache
+C:\Users\jojow.WEBSTER\source\repos\graph-visualizer\obj\Debug\net8.0-windows\ref\graph-visualizer.dll

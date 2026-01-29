@@ -1,12 +1,12 @@
-using UnityEngine;
+using System.Drawing;
 
 namespace GraphVisualizer
 {
     // Interface for rendering a tree layout to screen.
     public interface IGraphRenderer
     {
-        void Draw(IGraphLayout graphLayout, Rect drawingArea);
-        void Draw(IGraphLayout graphLayout, Rect drawingArea, GraphSettings graphSettings);
+        void Draw(IGraphLayout graphLayout, Rectangle drawingArea);
+        void Draw(IGraphLayout graphLayout, Rectangle drawingArea, GraphSettings graphSettings);
     }
 
     // Customization of how the graph will be displayed:

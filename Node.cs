@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
-using UnityEngine;
 
 namespace GraphVisualizer
 {
@@ -66,11 +66,34 @@ namespace GraphVisualizer
         {
             Type type = GetContentType();
             if (type == null)
-                return Color.red;
+                return Color.Red;
 
             string shortName = type.ToString().Split('.').Last();
             float h = (float)Math.Abs(shortName.GetHashCode()) / int.MaxValue;
-            return Color.HSVToRGB(h, 0.6f, 1.0f);
+            return ColorFromHSV(h, 0.6f, 1.0f);
+        }
+
+        // Helper method to convert HSV to RGB for System.Drawing.Color
+        private static Color ColorFromHSV(float h, float s, float v)
+        {
+            int hi = Convert.ToInt32(Math.Floor(h * 6)) % 6;
+            float f = h * 6 - (float)Math.Floor(h * 6);
+            float p = v * (1 - s);
+            float q = v * (1 - f * s);
+            float t = v * (1 - (1 - f) * s);
+
+            float r = 0, g = 0, b = 0;
+            switch (hi)
+            {
+                case 0: r = v; g = t; b = p; break;
+                case 1: r = q; g = v; b = p; break;
+                case 2: r = p; g = v; b = t; break;
+                case 3: r = p; g = q; b = v; break;
+                case 4: r = t; g = p; b = v; break;
+                case 5: r = v; g = p; b = q; break;
+            }
+
+            return Color.FromArgb(255, (int)(r * 255), (int)(g * 255), (int)(b * 255));
         }
     }
 }
